@@ -6,9 +6,9 @@ from datetime                           import datetime
 from time                               import sleep
 from typing_extensions                  import Annotated
 
-from file_dumper                        import FileDumper
-from policies_dumper                    import PoliciesDumper
-from conf                               import bcolors, ANONYMOUSDP, SCCMDPFileDumpError, SCCMPoliciesDumpError
+from src.file_dumper                        import FileDumper
+from src.policies_dumper                    import PoliciesDumper
+from src.conf                               import bcolors, ANONYMOUSDP, SCCMDPFileDumpError, SCCMPoliciesDumpError
 
 logger = logging.getLogger(__name__)
 
