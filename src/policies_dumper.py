@@ -19,7 +19,7 @@ from utils.utils                            import encode_UTF16_strip_BOM, clean
 from utils.policy_decrypt                   import decrypt_secret_policy
 from utils.deobfuscate_secret_policy_blob   import deobfuscate_secret_policy_blob
 
-from conf                               import bcolors, DATE_FORMAT, MP_INTERACTIONS_HEADERS, SCCMPoliciesDumpError
+from src.conf                               import bcolors, DATE_FORMAT, MP_INTERACTIONS_HEADERS, SCCMPoliciesDumpError
 
 logger = logging.getLogger(__name__)
 requests.packages.urllib3.disable_warnings()

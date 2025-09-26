@@ -8,7 +8,7 @@ import traceback
 
 from requests_ntlm              import HttpNtlmAuth
 from bs4                        import BeautifulSoup
-from conf                       import bcolors, ANONYMOUSDP, DP_DOWNLOAD_HEADERS
+from src.conf                       import bcolors, ANONYMOUSDP, DP_DOWNLOAD_HEADERS
 
 logger = logging.getLogger(__name__)
 requests.packages.urllib3.disable_warnings()

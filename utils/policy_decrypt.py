@@ -7,7 +7,7 @@ from cryptography.hazmat.backends                   import default_backend
 from pyasn1.codec.der.decoder                       import decode
 from pyasn1_modules                                 import rfc5652
 
-from conf                                           import bcolors, OID_MAPPING
+from src.conf                                           import bcolors, OID_MAPPING
 
 logger = logging.getLogger(__name__)
 
